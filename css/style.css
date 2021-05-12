@@ -1,0 +1,53 @@
+body{
+    padding: 12% 15%;
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+p{
+    position: relative;
+    font-size: 12px;
+}
+
+.container{
+    border-radius: 25px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+.image .box{
+    position: absolute;
+    z-index: 3;
+    left: 7.7%;
+    top: 250px;
+}
+.image .woman{
+    position: relative;
+    z-index: 2;
+    right: 17%;
+}
+.image .pattern{
+    position: absolute;
+    right: 51%;
+    bottom: -18%;
+        
+}
+.image, .text{
+    box-sizing: border-box;
+    padding: 8% 25% 8% 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 400;
+}
+span {
+    position:absolute;
+    right:0px;
+}
+
+
+.answer1, .answer2, .answer3, .answer4, .answer5{
+    display: none;
+}
+
+
